@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #3498db;
+}
+
+#home {
+  background: #3498db;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 50px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#home .role {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#about, #skills, #contact {
+  background: #fff;
+  margin: 50px 0;
+  padding: 40px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
