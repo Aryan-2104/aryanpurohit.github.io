@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan Purohit - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="home">
+    <div class="container">
+      <h1>Hello, I'm <span>Aryan Purohit</span></h1>
+      <p class="role">Student</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m Aryan Purohit, a BCA student passionate about data and technology. Currently building my skills in Python, SQL, and Data Analysis. I’m looking for opportunities to grow, collaborate, and contribute in the data field. I believe in consistent learning and delivering value through data-driven solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills & Tools</h2>
+      <ul>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Data Analysis</li>
+        <li>Excel</li>
+        <li>Machine Learning</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <a href="your-resume.pdf" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:aryanpurohitwork@gmail.com">aryanpurohitwork@gmail.com</a></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
